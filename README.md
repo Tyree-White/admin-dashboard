@@ -1,1 +1,1 @@
-# admin-dashboard
+In this project I will be using HTML and CSS to create a Admin dashboard. I will be mainly using CSS to demonstrate what I have learned about the CSS grid layout.
