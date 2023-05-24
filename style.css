@@ -43,3 +43,27 @@ nav ul li,
     margin-top: 4vh;;
     margin-bottom: 8vh;
 }
+
+.header {
+    padding: 1vh 10vh 1vh 6vh;
+}
+
+.header p {
+    margin: 0;
+}
+
+.header .top {
+    display: grid;
+    grid-template-columns: 1fr 56fr 1fr 2fr 4fr;
+    align-items: center;
+    gap: 2vw;
+}
+
+.top input {
+    max-height: fit-content;
+    margin-right: 5vw;
+    background-color: #e5e7eb;
+    border: none;
+    border-radius: 5rem;
+    padding: .5vw;
+}
