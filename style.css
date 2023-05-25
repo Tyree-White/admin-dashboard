@@ -140,7 +140,7 @@ nav ul li,
     margin: 0;
 }
 
-.cards div h4 {
+.cards div h3 {
     margin: 0px 0px .5vh 0px;
     color: black;
 }
@@ -151,4 +151,24 @@ nav ul li,
 
 .cards .icons img {
     margin-left: 2vh;
+}
+
+.announcements .card {
+    background: white;
+    padding: 4vh 5vh;
+    border-radius: 2vh;
+}
+
+.announcements .card span {
+    font-weight: bold;
+    display: block;
+}
+
+.announcements .card hr {
+    margin: 3vh 0px;
+}
+
+.announcements .card p {
+    font-size: 14px;
+    color: gray;
 }
