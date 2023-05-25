@@ -57,6 +57,7 @@ nav ul li,
     grid-template-columns: 1fr 56fr 1fr 2fr 4fr;
     align-items: center;
     gap: 2vw;
+    margin-bottom: 3vh;
 }
 
 .top input {
@@ -66,4 +67,39 @@ nav ul li,
     border: none;
     border-radius: 5rem;
     padding: .5vw;
+}
+
+.header .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .bottom .left {
+    display: flex;
+    
+}
+
+.header .bottom .right {
+    align-self: center;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.header button {
+    background: #0ea5e9;
+    color: white;
+    border: none;
+    width: 8vw;
+    height: 6vh;
+    border-radius: 2rem;
+    margin-right: 2vw;
+    font-weight: bold;
+}
+
+#greeter {
+    margin-bottom: 1vh;
 }
