@@ -125,12 +125,15 @@ nav ul li,
     margin-top: 1vh;
 }
 
-.cards div {
+.cards .card{
     background: white;
     border-radius: 1vh;
     border-left: .5rem solid #fbbf24;
     padding: 4vh 2vh;
     color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .main p {
@@ -140,4 +143,12 @@ nav ul li,
 .cards div h4 {
     margin: 0px 0px .5vh 0px;
     color: black;
+}
+
+.card .icons {
+    align-self: end;
+}
+
+.cards .icons img {
+    margin-left: 2vh;
 }
