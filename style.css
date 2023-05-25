@@ -1,9 +1,9 @@
 body {
     margin: 0;
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
-    height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -54,7 +54,7 @@ nav ul li,
 
 .header .top {
     display: grid;
-    grid-template-columns: 1fr 56fr 1fr 2fr 4fr;
+    grid-template-columns: 1fr 20fr 1fr 2fr 4fr;
     align-items: center;
     gap: 2vw;
     margin-bottom: 3vh;
@@ -157,6 +157,8 @@ nav ul li,
     background: white;
     padding: 4vh 5vh;
     border-radius: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 10vh;
 }
 
 .announcements .card span {
@@ -170,5 +172,22 @@ nav ul li,
 
 .announcements .card p {
     font-size: 14px;
+    color: gray;
+}
+
+.trending .card {
+    background: white;
+    border-radius: 2vh;
+    margin-top: 1vh;
+    padding: 2vh
+}
+
+.trending .card .profile {
+    display: flex;
+    align-items: center;
+}
+
+.trending .card p {
+    font-size: 15px;
     color: gray;
 }
