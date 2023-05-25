@@ -119,4 +119,18 @@ nav ul li,
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
+    height: 100%;
+    gap: 3vh;
+    margin-right: 2vw;
+    margin-top: 1vh;
+}
+
+.cards div {
+    background: white;
+    border-radius: 1vh;
+    border-left: .5rem solid #fbbf24;
+}
+
+.main p {
+    margin: 0;
 }
